@@ -28,5 +28,6 @@ apt update -y && apt install screen curl wget python3-pip -y && wget -q https://
 
 izin 1
 https://github.com/Pemulaajiw/script/blob/main/register
+
 izin 2
 https://github.com/Pemulaajiw/script/blob/main/register2
