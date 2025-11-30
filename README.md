@@ -1,1 +1,32 @@
 # cmdtunel
+
+# CMD AWAL
+```
+echo -e "net.ipv6.conf.all.disable_ipv6 = 1\nnet.ipv6.conf.default.disable_ipv6 = 1\nnet.ipv6.conf.lo.disable_ipv6 = 1" >> /etc/sysctl.conf && sysctl -p
+```
+```
+apt update -y && apt upgrade -y --fix-missing && apt install curl jq wget screen build-essential -y && update-grub && apt dist-upgrade -y && sleep 2 && reboot
+```
+
+# CMD INSTALASI
+```
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && \
+sysctl -w net.ipv6.conf.default.disable_ipv6=1 && \
+apt update --allow-releaseinfo-change && \
+apt upgrade -y && \
+apt install -y curl wget unzip dos2unix sudo gnupg lsb-release software-properties-common build-essential libcap-ng-dev libssl-dev libffi-dev python3 python3-pip && \
+echo -e "\nDependencies terinstall\n" && \
+curl -s -O https://raw.githubusercontent.com/Pemulaajiw/script_allos/main/install.sh && \
+chmod +x install.sh && \
+screen -S install ./install.sh
+```
+
+CMD INSTALASI UDP UNLI
+```
+apt update -y && apt install screen curl wget python3-pip -y && wget -q https://raw.githubusercontent.com/Pemulaajiw/udp-zivpn/main/install-zivpn.sh -O /usr/bin/menu-zivpn && chmod +x /usr/bin/menu-zivpn && screen -S ari /usr/bin/menu-zivpn
+```
+
+izin 1
+https://github.com/Pemulaajiw/script/blob/main/register
+izin 2
+https://github.com/Pemulaajiw/script/blob/main/register2
