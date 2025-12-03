@@ -23,7 +23,7 @@ screen -S install ./install.sh
 
 CMD INSTALASI UDP UNLI
 ```
-apt update -y && apt install screen ruby lolcat curl wget python3-pip -y && wget -q https://raw.githubusercontent.com/Pemulaajiw/udp-zivpn/main/install.sh -O /usr/bin/menu-zivpn && chmod +x /usr/bin/menu-zivpn &&  /usr/bin/menu-zivpn
+apt update -y && apt install screen ufw ruby lolcat curl wget python3-pip -y && wget -q https://raw.githubusercontent.com/Pemulaajiw/udp-zivpn/main/install.sh -O /usr/local/bin/zivpn-manager && chmod +x /usr/local/bin/zivpn-manager && /usr/local/bin/zivpn-manager
 ```
 
 izin 1
